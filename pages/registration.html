@@ -3,8 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Azienda Farmaceutica</title>
-    <link href="global.css" rel="stylesheet">
+    <title>Prodotti</title>
+    <link href="../global.css" rel="stylesheet">
+    <link href="../product.css" rel="stylesheet">
 </head>
 <body>
     <header>
@@ -44,14 +45,19 @@
         </nav>
     </header>
 
-    <!-- Devo mettere un'immagine e poi scrivere la storia dell'azienda -->
-    <div class="front-page-img-container">
-        <img src="images/th-3394652762.jpeg" class="front-page-img">
-    </div>
+    <form class="registration-form">
+        <label for="name">Name:</label>
+        <input type="text" id="name" required>
 
-    <div class="text-container">
-        
-    </div>
+        <label for="surname">Surname:</label>
+        <input type="text" id="surname" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" required>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" required>
+    </form>
 
 </body>
 </html>
